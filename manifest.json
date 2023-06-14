@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3 ,
+
+  "name": "JIRA Linker",
+  "description" : "Linker for JIRA",
+  "version": "1.0",
+  
+  "permissions": [
+    "tabs"
+  ],
+  "optional_host_permissions": [
+    "*://*/*"
+  ],
+ 
+  "action": {
+    "default_icon": "img/jira.png",
+    "default_popup": "popup.html",
+    "default_title": "Linker vers JIRA"
+  },
+  
+  "icons": {
+    "128": "img/jira.png"
+  }
+}
